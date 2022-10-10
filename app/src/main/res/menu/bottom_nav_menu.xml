@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/navGas"
+            android:icon="@drawable/ic_oil"
+            android:title="Oil/Gas" />
+        <item
+            android:id="@+id/navNews"
+            android:icon="@drawable/ic_baseline_view_headline_24"
+            android:title="News" />
+        <item
+            android:id="@+id/navInvest"
+            android:icon="@drawable/ic_save_money"
+            android:title="Invest" />
+        <item
+            android:id="@+id/navContact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact" />
+
+    </menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCF5FB"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/headerbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_app_store"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_30sdp"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allied Resource"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_23sdp"/>
+        <TextView
+            android:id="@+id/subtiottle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="P   A   R   T   N   E   R   S"
+            android:layout_toRightOf="@id/logo"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
